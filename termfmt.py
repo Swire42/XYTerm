@@ -57,7 +57,7 @@ bgLWhite='\033[107m'
 def fgColor256(n):
     return '\033[38;5;'+str(n)+'m'
 
-def fgClorRGB(r,g,b):
+def fgColorRGB(r,g,b):
     return '\033[38;2;'+str(r)+';'+str(g)+';'+str(b)+'m'
 
 def bgColor256(n):
